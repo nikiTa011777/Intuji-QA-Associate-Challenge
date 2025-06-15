@@ -39,3 +39,20 @@ Cypress.Commands.add('login', (email, password) => {
   cy.get('input[data-qa="login-password"]').type(password);
   cy.get('button[data-qa="login-button"]').click();
 });
+
+
+Cypress.Commands.add('addToCart', (productIndex, quantity = 1, viewCart = false) => {
+  cy.visit('https://automationexercise.com');
+  cy.get('.product-image-wrapper').eq(productIndex).contains('View Product').click();
+  cy.url().should('include', '/product_details');
+  cy.get('#quantity').clear().type(quantity.toString());
+  cy.get('.cart').contains('Add to cart').click();
+
+  cy.wait(1000);
+
+  if (viewCart) {
+    cy.contains('View Cart', { timeout: 5000 }).click({ force: true });
+  } else {
+    cy.contains('Continue Shopping', { timeout: 5000 }).click({ force: true });
+  }
+});
