@@ -1,17 +1,7 @@
 [
   {
-    "name": "ram bahadhur",
-    "email": "ram0001@example.com",
-    "password": "puskar123",
-    "address": "12 Dhumbarahi Marg",
-    "city": "Kathmandu",
-    "state": "Bagmati",
-    "zip": "44600",
-    "mobile": "9801110001"
-  },
-  {
     "name": "Sita Sharma",
-    "email": "sita02@example.com",
+    "email": "sita01@example.com",
     "password": "sita123",
     "address": "56 Lakeside Road",
     "city": "Pokhara",
@@ -20,13 +10,23 @@
     "mobile": "9812220002"
   },
   {
-    "name": "Binod Thapa",
-    "email": "binod03@example.com",
-    "password": "binod123",
-    "address": "23 Mahendra Path",
-    "city": "Biratnagar",
-    "state": "Koshi",
-    "zip": "56613",
-    "mobile": "9823330003"
+    "name": "Sita Sharma",
+    "email": "sita01@example.com",
+    "password": "sita123",
+    "address": "56 Lakeside Road",
+    "city": "Pokhara",
+    "state": "Gandaki",
+    "zip": "33700",
+    "mobile": "9812220002"
+  },
+   {
+    "name": "Sita Sharma",
+    "email": "sita01@example.com",
+    "password": "sita123",
+    "address": "56 Lakeside Road",
+    "city": "Pokhara",
+    "state": "Gandaki",
+    "zip": "33700",
+    "mobile": "9812220002"
   }
 ]
